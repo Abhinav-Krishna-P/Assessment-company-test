@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing-main {
+    height: 100vh;
+    position: relative;
+    background-image: url(../assets/mian-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    position: relative;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.294);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(4px);
+}
+.admin-main{
+    background-color: rgba(11, 11, 11, 0.823);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 1rem;
+    height: 60%;
+    width: 30%;
+    padding: 1rem;
+}
+.admin-main .box-content-login{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 1rem; */
+}
+.admin-main .box-content-login .form-login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;     
+}
+.admin-main .box-content-login .form-login label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+.admin-main .box-content-login .form-login input{
+    height: 3rem;
+    width: 68%;
+    padding-left: 1rem;
+    background-color: transparent;
+    border: 1px solid ;
+    border-radius: 0.3rem;
+}
+.admin-main .box-content-login .form-login input::placeholder{
+    padding-left: 1rem;
+    font-size: medium;
+}
+.admin-main .box-content-login .form-login button{
+    background-color: rgba(0, 0, 255, 0.796);
+    height: 3.1rem;
+    width: 12rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+.admin-main .box-content-login .form-login button:hover{
+    scale: (1.03)
+}
+
+.form-signup{
+    width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        gap: 2rem;
+}
+.form-signup label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+.form-signup input{
+    display: block;
+    height: 2.5rem;
+        width: 90%;
+        padding-left: 1rem;
+        background-color: transparent;
+        border: 1px solid;
+        border-radius: 0.3rem;
+}
+
+.form-signup button {
+    background-color: rgba(0, 0, 255, 0.796);
+    height: 3.1rem;
+    width: 12rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
